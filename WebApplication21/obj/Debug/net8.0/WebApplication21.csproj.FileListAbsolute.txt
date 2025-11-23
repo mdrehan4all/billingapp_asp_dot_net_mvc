@@ -169,3 +169,4 @@ C:\Users\hp\source\repos\WebApplication21\WebApplication21\bin\Debug\net8.0\runt
 C:\Users\hp\source\repos\WebApplication21\WebApplication21\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Users\hp\source\repos\WebApplication21\WebApplication21\obj\Debug\net8.0\WebApplication21.csproj.AssemblyReference.cache
 C:\Users\hp\source\repos\WebApplication21\WebApplication21\obj\Debug\net8.0\WebAppli.AEEAB7AF.Up2Date
+C:\Users\hp\source\repos\WebApplication21\WebApplication21\obj\Debug\net8.0\WebApplication21.sourcelink.json

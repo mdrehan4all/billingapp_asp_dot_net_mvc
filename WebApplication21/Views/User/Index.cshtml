@@ -3,15 +3,25 @@
 *@
 @{
 }
-@{
-    if(TempData["isLogged"] == "no")
-    {
-        <a href="/User/Login" class="btn btn-primary">Login</a>
-    }
-    else
-    {
-        <a href="/User/Logout" class="btn btn-danger">Logout</a>
-    }
-}
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-12">
+            <a href="#" class="btn btn-primary">Add Products</a>
+            <a href="#" class="btn btn-primary">View Products</a>
+            <a href="#" class="btn btn-primary">Create Bill</a>
+            @{
+                if (TempData["isLogged"] == "no")
+                {
+                    <a href="/User/Login" class="btn btn-primary">Login</a>
+                }
+                else
+                {
+                    <a href="/User/Logout" onclick="return confirm('Are you sure?');" class="btn btn-danger">Logout</a>
+                }
+            }
+        </div>
+    </div>
+</div>
 
 

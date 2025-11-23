@@ -1,7 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
-using WebApplication21.Models;
 using System;
+using System.Text;
+using WebApplication21.Models;
 
 namespace WebApplication21.Controllers
 {
@@ -53,14 +54,17 @@ public class UserController : Controller
                 {
                     TempData["Message"] = "Login success";
 
-                    DateTime currentTime = DateTime.Now;
-                    int seconds = currentTime.Second;
-                    user.Token = seconds.ToString();
+            
+                    long currentTimeTicks = DateTime.UtcNow.Ticks;
+                    string combinedString = $"{currentTimeTicks}:{user}";
+                    byte[] bytes = Encoding.UTF8.GetBytes(combinedString);
+                    string token = Convert.ToBase64String(bytes);
+                    user.Token = token;
                     context.Users.Update(user);
                     context.SaveChanges(true);
 
                     // Fix: Use Response.Cookies.Append instead of HttpCookie
-                    Response.Cookies.Append("token", "abcd", new CookieOptions
+                    Response.Cookies.Append("token", $"{token}", new CookieOptions
                     {
                         Expires = DateTime.Now.AddDays(7) // Optional: set expiry
                     });
@@ -76,6 +80,33 @@ public class UserController : Controller
         public IActionResult Signup()
         {
             return View();
+        }
+
+        [HttpPost]
+        public IActionResult Signup(String username, String name, String password)
+        {
+            if (!string.IsNullOrEmpty(username) && !string.IsNullOrEmpty(name) && !string.IsNullOrEmpty(password))
+            {
+                try
+                {
+                    User user = new User();
+                    user.Email = username;
+                    user.Password = password;
+                    user.Name = name;
+                    context.Users.Add(user);
+                    context.SaveChanges();
+                    TempData["alert"] = "success";
+                    TempData["message"] = "Account created";
+                } catch(Exception ex)
+                {
+                    TempData["alert"] = "danger";
+                    TempData["message"] = ex?.InnerException?.Message;
+                }
+                return RedirectToAction("Signup");
+            }
+            TempData["alert"] = "danger";
+            TempData["message"] = "Fill all the fields";
+            return RedirectToAction("Signup");
         }
     }
 }

@@ -1,14 +1,26 @@
 ﻿@*
     For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 *@
-@{
-}
 
+@{
+    if (TempData["message"] != null && TempData["alert"]?.ToString() == "success")
+    {
+        <div class="alert alert-success">
+            @TempData["message"]
+        </div>
+    }
+    if (TempData["message"] != null && TempData["alert"]?.ToString() == "danger")
+    {
+        <div class="alert alert-danger">
+            @TempData["message"]
+        </div>
+    }
+}
 <div class="container">
     <div class="row">
         <div class="col-md-6 offset-md-3">
             <h2 class="text-center">Login</h2>
-            <form method="post" action="/User/Login">
+            <form method="post" action="/User/Signup">
                 <div class="form-group accept-policy">
                     <label for="username">Username</label>
                     <input type="text" class="form-control" id="username" name="username" required />
@@ -20,6 +32,7 @@
                     <input type="password" class="form-control" id="password" name="password" required />
 
                     <button type="submit" class="btn btn-primary btn-block mt-3">Signup</button>
+                    <a href="Login" class="btn btn-primary btn-block mt-3">Login</a>
                 </div>
             </form>
         </div>
