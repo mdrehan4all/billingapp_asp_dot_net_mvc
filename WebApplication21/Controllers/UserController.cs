@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using System;
 using System.Text;
 using WebApplication21.Models;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace WebApplication21.Controllers
 {
@@ -83,7 +84,7 @@ public class UserController : Controller
         }
 
         [HttpPost]
-        public IActionResult Signup(String username, String name, String password)
+        public IActionResult Signup(string username, string name, string password)
         {
             if (!string.IsNullOrEmpty(username) && !string.IsNullOrEmpty(name) && !string.IsNullOrEmpty(password))
             {
@@ -107,6 +108,59 @@ public class UserController : Controller
             TempData["alert"] = "danger";
             TempData["message"] = "Fill all the fields";
             return RedirectToAction("Signup");
+        }
+
+        public IActionResult AddProducts()
+        {
+            return View();
+        }
+        [HttpPost]
+        public IActionResult AddProducts(string name, string description, int price, int stock)
+        {
+            Product product = new Product();
+            product.Name = name;
+            product.Description = description;
+            product.Price = price;
+            product.Stock = stock;
+
+            context.Products.Add(product);
+            context.SaveChanges();
+            TempData["message"] = "Data Saved";
+            return View();
+        }
+
+        public IActionResult ListProducts()
+        {
+            var products = context.Products.ToList();
+            return View(products);
+        }
+        public IActionResult DeleteProduct(int id)
+        {
+            Product product = new Product();
+            product.Id = id;
+            context.Products.Remove(product);
+            context.SaveChanges();
+            return RedirectToAction("ListProducts");
+        }
+
+        public IActionResult UpdateProduct(int id)
+        {
+            var product = context.Products.FirstOrDefault((item)=>item.Id == id);
+            return View(product);
+        }
+
+        [HttpPost]
+        public IActionResult UpdateProduct(int id, string name, string description, int price, int stock)
+        {
+            var product = context.Products.FirstOrDefault((item) => item.Id == id);
+            product.Name = name;
+            product.Description = description;
+            product.Price = price;
+            product.Stock = stock;
+            context.Products.Update(product);
+            context.SaveChanges();
+            TempData["message"] = "Updated";
+            return RedirectToAction("UpdateProduct", new {id = id});
         }
     }
 }

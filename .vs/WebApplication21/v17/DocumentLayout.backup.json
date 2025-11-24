@@ -3,12 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\hp\\source\\repos\\WebApplication21\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FE1B53CE-3BA8-4F57-B6B5-EEF1E0B38729}|WebApplication21\\WebApplication21.csproj|c:\\users\\hp\\source\\repos\\webapplication21\\webapplication21\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE1B53CE-3BA8-4F57-B6B5-EEF1E0B38729}|WebApplication21\\WebApplication21.csproj|solutionrelative:webapplication21\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE1B53CE-3BA8-4F57-B6B5-EEF1E0B38729}|WebApplication21\\WebApplication21.csproj|c:\\users\\hp\\source\\repos\\webapplication21\\webapplication21\\views\\user\\updateproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE1B53CE-3BA8-4F57-B6B5-EEF1E0B38729}|WebApplication21\\WebApplication21.csproj|solutionrelative:webapplication21\\views\\user\\updateproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE1B53CE-3BA8-4F57-B6B5-EEF1E0B38729}|WebApplication21\\WebApplication21.csproj|c:\\users\\hp\\source\\repos\\webapplication21\\webapplication21\\views\\user\\listproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE1B53CE-3BA8-4F57-B6B5-EEF1E0B38729}|WebApplication21\\WebApplication21.csproj|solutionrelative:webapplication21\\views\\user\\listproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE1B53CE-3BA8-4F57-B6B5-EEF1E0B38729}|WebApplication21\\WebApplication21.csproj|c:\\users\\hp\\source\\repos\\webapplication21\\webapplication21\\views\\user\\addproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE1B53CE-3BA8-4F57-B6B5-EEF1E0B38729}|WebApplication21\\WebApplication21.csproj|solutionrelative:webapplication21\\views\\user\\addproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE1B53CE-3BA8-4F57-B6B5-EEF1E0B38729}|WebApplication21\\WebApplication21.csproj|c:\\users\\hp\\source\\repos\\webapplication21\\webapplication21\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE1B53CE-3BA8-4F57-B6B5-EEF1E0B38729}|WebApplication21\\WebApplication21.csproj|solutionrelative:webapplication21\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FE1B53CE-3BA8-4F57-B6B5-EEF1E0B38729}|WebApplication21\\WebApplication21.csproj|c:\\users\\hp\\source\\repos\\webapplication21\\webapplication21\\views\\user\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{FE1B53CE-3BA8-4F57-B6B5-EEF1E0B38729}|WebApplication21\\WebApplication21.csproj|solutionrelative:webapplication21\\views\\user\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FE1B53CE-3BA8-4F57-B6B5-EEF1E0B38729}|WebApplication21\\WebApplication21.csproj|c:\\users\\hp\\source\\repos\\webapplication21\\webapplication21\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE1B53CE-3BA8-4F57-B6B5-EEF1E0B38729}|WebApplication21\\WebApplication21.csproj|solutionrelative:webapplication21\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FE1B53CE-3BA8-4F57-B6B5-EEF1E0B38729}|WebApplication21\\WebApplication21.csproj|c:\\users\\hp\\source\\repos\\webapplication21\\webapplication21\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE1B53CE-3BA8-4F57-B6B5-EEF1E0B38729}|WebApplication21\\WebApplication21.csproj|solutionrelative:webapplication21\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FE1B53CE-3BA8-4F57-B6B5-EEF1E0B38729}|WebApplication21\\WebApplication21.csproj|c:\\users\\hp\\source\\repos\\webapplication21\\webapplication21\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -27,10 +47,6 @@
       "RelativeMoniker": "D:0:0:{FE1B53CE-3BA8-4F57-B6B5-EEF1E0B38729}|WebApplication21\\WebApplication21.csproj|solutionrelative:webapplication21\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FE1B53CE-3BA8-4F57-B6B5-EEF1E0B38729}|WebApplication21\\WebApplication21.csproj|c:\\users\\hp\\source\\repos\\webapplication21\\webapplication21\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FE1B53CE-3BA8-4F57-B6B5-EEF1E0B38729}|WebApplication21\\WebApplication21.csproj|solutionrelative:webapplication21\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FE1B53CE-3BA8-4F57-B6B5-EEF1E0B38729}|WebApplication21\\WebApplication21.csproj|c:\\users\\hp\\source\\repos\\webapplication21\\webapplication21\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{FE1B53CE-3BA8-4F57-B6B5-EEF1E0B38729}|WebApplication21\\WebApplication21.csproj|solutionrelative:webapplication21\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
@@ -42,11 +58,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
+              "Title": "UpdateProduct.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\WebApplication21\\WebApplication21\\Views\\User\\UpdateProduct.cshtml",
+              "RelativeDocumentMoniker": "WebApplication21\\Views\\User\\UpdateProduct.cshtml",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\WebApplication21\\WebApplication21\\Views\\User\\UpdateProduct.cshtml",
+              "RelativeToolTip": "WebApplication21\\Views\\User\\UpdateProduct.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-24T17:54:10.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ListProducts.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\WebApplication21\\WebApplication21\\Views\\User\\ListProducts.cshtml",
+              "RelativeDocumentMoniker": "WebApplication21\\Views\\User\\ListProducts.cshtml",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\WebApplication21\\WebApplication21\\Views\\User\\ListProducts.cshtml",
+              "RelativeToolTip": "WebApplication21\\Views\\User\\ListProducts.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-24T17:27:42.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AddProducts.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\WebApplication21\\WebApplication21\\Views\\User\\AddProducts.cshtml",
+              "RelativeDocumentMoniker": "WebApplication21\\Views\\User\\AddProducts.cshtml",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\WebApplication21\\WebApplication21\\Views\\User\\AddProducts.cshtml",
+              "RelativeToolTip": "WebApplication21\\Views\\User\\AddProducts.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-24T17:13:59.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\WebApplication21\\WebApplication21\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "WebApplication21\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\WebApplication21\\WebApplication21\\Models\\Product.cs",
+              "RelativeToolTip": "WebApplication21\\Models\\Product.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T17:12:39.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\WebApplication21\\WebApplication21\\Program.cs",
               "RelativeDocumentMoniker": "WebApplication21\\Program.cs",
@@ -54,12 +122,11 @@
               "RelativeToolTip": "WebApplication21\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-19T04:57:43.847Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-19T04:57:43.847Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "BillingdbContext.cs",
               "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\WebApplication21\\WebApplication21\\Models\\BillingdbContext.cs",
               "RelativeDocumentMoniker": "WebApplication21\\Models\\BillingdbContext.cs",
@@ -67,12 +134,11 @@
               "RelativeToolTip": "WebApplication21\\Models\\BillingdbContext.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAowBUAAABUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-19T04:56:52.226Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-19T04:56:52.226Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\WebApplication21\\WebApplication21\\appsettings.json",
               "RelativeDocumentMoniker": "WebApplication21\\appsettings.json",
@@ -80,25 +146,24 @@
               "RelativeToolTip": "WebApplication21\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-11-19T04:49:52.027Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-19T04:49:52.027Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "Signup.cshtml",
               "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\WebApplication21\\WebApplication21\\Views\\User\\Signup.cshtml",
               "RelativeDocumentMoniker": "WebApplication21\\Views\\User\\Signup.cshtml",
               "ToolTip": "C:\\Users\\hp\\source\\repos\\WebApplication21\\WebApplication21\\Views\\User\\Signup.cshtml",
               "RelativeToolTip": "WebApplication21\\Views\\User\\Signup.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-11-17T06:18:03.257Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\WebApplication21\\WebApplication21\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "WebApplication21\\Views\\Shared\\_Layout.cshtml",
@@ -110,39 +175,38 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\WebApplication21\\WebApplication21\\Views\\User\\Login.cshtml",
               "RelativeDocumentMoniker": "WebApplication21\\Views\\User\\Login.cshtml",
               "ToolTip": "C:\\Users\\hp\\source\\repos\\WebApplication21\\WebApplication21\\Views\\User\\Login.cshtml",
               "RelativeToolTip": "WebApplication21\\Views\\User\\Login.cshtml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACQAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-17T06:03:08.275Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-17T06:03:08.275Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\WebApplication21\\WebApplication21\\Views\\User\\Index.cshtml",
               "RelativeDocumentMoniker": "WebApplication21\\Views\\User\\Index.cshtml",
               "ToolTip": "C:\\Users\\hp\\source\\repos\\WebApplication21\\WebApplication21\\Views\\User\\Index.cshtml",
               "RelativeToolTip": "WebApplication21\\Views\\User\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-11-17T06:01:40.511Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\WebApplication21\\WebApplication21\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "WebApplication21\\Controllers\\UserController.cs",
               "ToolTip": "C:\\Users\\hp\\source\\repos\\WebApplication21\\WebApplication21\\Controllers\\UserController.cs",
               "RelativeToolTip": "WebApplication21\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAFcAAAAAAAAAAAAowGoAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAI4AAAAAAAAAAAAowKIAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-17T06:01:07.752Z",
               "EditorCaption": ""
